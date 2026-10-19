@@ -112,7 +112,7 @@ export const schema = () => {
           currency: {
             title: 'Currency',
             type: 'string',
-            enum: ['', invenioConfig.APP.DEFAULT_CURRENCY],
+            enum: [invenioConfig.APP.DEFAULT_CURRENCY],
           },
           value: {
             minimum: 0,
